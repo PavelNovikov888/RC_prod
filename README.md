@@ -13,17 +13,10 @@ MVP создана на основе Flask и принципов REST API
 
 ## Установка программы    
 ### 1 вариант: С помощью GitHub  
-      1. Клонировать данный репозиторий с помощью команды:    
-         ` git clone https://github.com/PavelNovikov888/RC_prod.git `   
-      2. В терминале перейти в корневую папку данного проекта и выполнить команду:     
-            `bash engage`  
-      3. Дождаться появления на экране надписи:     
-> * Serving Flask app 'houseapp.py'  
-> * Debug mode: off  
-> WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.   
-> * Running on http://127.0.0.1:5000
-
-4. Перейти в браузере по адресу [http://127.0.0.1:5000]()
+1. Клонировать данный репозиторий с помощью команды:    
+   ` git clone https://github.com/PavelNovikov888/RC_prod.git `   
+2. В терминале перейти в корневую папку данного проекта и выполнить команду:     
+   `bash engage`  
 
 ### 2 вариант: С помощью DockerHub
 > Docker образ программы хранится в DockerHub по адресу [https://hub.docker.com/r/pavelnovikov/reccom_image](https://hub.docker.com/r/pavelnovikov/reccom_image)
@@ -33,8 +26,9 @@ MVP создана на основе Flask и принципов REST API
 2. Проверить появился ли данный образ в Docker:  
    `docker images`
 3. Запустить контейнер командой:  
-   `docker run -p 5000:5000 reccom_image:1.0`   
-4. Дождаться появления на экране надписи:     
+   `docker run -p 5000:5000 reccom_image:1.0`  
+    
+4. После появления на экране надписи:     
 > * Serving Flask app 'houseapp.py'  
 > * Debug mode: off  
 > WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.   
