@@ -1,0 +1,9 @@
+pyodbc==5.1.0
+bottleneck==1.4.0
+numexpr
+flask-wtf==1.2.1
+flask-sqlalchemy==3.1.1
+flask-migrate==4.0.7
+pandas
+scikit-learn==1.2.2
+lightfm==1.17

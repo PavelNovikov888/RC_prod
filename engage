@@ -1,0 +1,17 @@
+#скрипт для запуска
+# перейти в папку /home/user/Рабочий стол/Prod_f
+# запустить bash engage
+export FLASK_APP=houseapp.py
+pip install pyodbc -q --upgrade
+pip install bottleneck -q --upgrade
+pip install numexpr -q --upgrade
+pip install flask-wtf -q
+pip install flask-sqlalchemy -q
+pip install flask-migrate -q
+pip install pandas -q
+pip install scikit-learn==1.2.2 -q
+pip install lightfm -q
+cd houseApp
+flask run
+
+# Конец

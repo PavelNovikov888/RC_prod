@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор</title>
+    <style>
+        .btn {
+            padding: 10px 20px; /* задаем отступы для кнопки */
+            font-size: 16px; /* задаем размер шрифта для кнопки */
+        }
+    </style>
+</head>
+<body>
+    <h3>Выберите категорию для подбора рекомендаций</h3>
+    <h3>Нажмите на нужную кнопку</h3>
+    <form action="/submit" method="post">
+        <button class="btn" name="redirect" value="users" type="submit">User</button>
+        <button class="btn" name="redirect" value="items" type="submit">Item</button>
+    </form>
+</body>
+</html>

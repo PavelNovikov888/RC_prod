@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Рекомендации</title>
+    </head>
+    <body>
+    {% block content %}
+    <h2>Item </h2>
+    <form action="" method="post" novalidate>
+        <p>
+            {{ form.item.label }}<br>
+            {{ form.item(size=32) }}
+        </p>
+        <p>{{ form.button_reccom() }}</p>
+    </form>
+    <hr>
+    <p>{{ cost1 }}</p>
+    <p>{{ cost2 }}</p>
+    <p>{{ cost3 }}</p>
+    <p>{{ cost4 }}</p>
+    <p>{{ cost5 | safe }}</p>
+    <p>{{ cost6 }}</p>
+    <p>{{ cost7 | safe }}</p>
+    {% endblock %}
+    </body>
+</html>
