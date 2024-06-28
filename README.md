@@ -26,9 +26,11 @@ MVP создана на основе Flask и принципов REST API
 2. Проверить появился ли данный образ в Docker:  
    `docker images`
 3. Запустить контейнер командой:  
-   `docker run -p 5000:5000 reccom_image:1.0`  
+   `docker run -p 5000:5000 reccom_image:1.0`
+
+Инструкция по использованию 
     
-4. После появления на экране надписи:     
+5. После появления на экране надписи:     
 > * Serving Flask app 'houseapp.py'  
 > * Debug mode: off  
 > WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.   
@@ -36,4 +38,4 @@ MVP создана на основе Flask и принципов REST API
 
 5. Перейти в браузере по адресу [http://127.0.0.1:5000]()
    
-  Маршрутизация:
+
