@@ -39,7 +39,7 @@ def get_hot1():
         form.cost.data = user
         
         g, g1, g2, g3, g4 = user_service(int(user))
-        return render_template('user_history_post.html', form=form, cost = str(g), cost1 = str(g1), cost2 = str(g2), cost3 = str(g3), cost4 = str(g4))
+        return render_template('user_history.html', form=form, cost = str(g), cost1 = str(g1), cost2 = str(g2), cost3 = str(g3), cost4 = str(g4))
     
     
 @app.route('/items', methods=['GET','POST'])
