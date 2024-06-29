@@ -2,7 +2,7 @@
 С помощью данной MVP(минимально жизнеспособный продукт) демонстрируется работа модели рекомендательной системы(РС) интернет-магазина.  
 
 ## Бизнес-задача: увеличение продаж на 20% за счет использования РС.  
-В прилагаемой [демонстрации](https://github.com/PavelNovikov888/RC_prod/blob/master/RS_presentation.odp) приведены данные проведенного [исследования](https://github.com/PavelNovikov888/RC_prod/blob/master/RS_research_kaggle.ipynb) и обоснованы причины выбора модели на основе библиотеки LightFM  
+В прилагаемой [презентации](https://github.com/PavelNovikov888/RC_prod/blob/master/RS_presentation.odp) приведены данные проведенного [исследования](https://github.com/PavelNovikov888/RC_prod/blob/master/RS_research_kaggle.ipynb) и обоснованы причины выбора модели на основе библиотеки LightFM  
 MVP создана на основе Flask и принципов REST API
 
 ## MVP позволяет: 
